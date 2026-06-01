@@ -2,13 +2,13 @@
 
 ## 📌 Project Title
 
-TaskFlow - To-Do List Web Application
+**TaskFlow - To-Do List Web Application**
 
 ---
 
 ## 🎯 Objective
 
-Build a dynamic To-Do List web application using HTML, CSS, and Vanilla JavaScript where users can add, edit, delete, search, and manage tasks efficiently.
+Create a dynamic To-Do List web application using HTML, CSS, and Vanilla JavaScript where users can efficiently manage daily tasks by adding, editing, deleting, searching, and marking tasks as completed.
 
 ---
 
@@ -35,7 +35,7 @@ Build a dynamic To-Do List web application using HTML, CSS, and Vanilla JavaScri
 * Task statistics (Pending & Completed count)
 * Local Storage support
 * Current date display
-* Responsive design for mobile and desktop
+* Responsive design for desktop and mobile devices
 * Separate About page
 
 ---
@@ -43,31 +43,38 @@ Build a dynamic To-Do List web application using HTML, CSS, and Vanilla JavaScri
 ## 📁 Project Structure
 
 ```text
-ELEVATE_LABS_INTERNSHIP/
-└── Task2
-    ├── index.html
-    ├── about.html
-    ├── style.css
-    ├── script.js
-    ├── logo.png
-    ├── homepage_desktop.png
-    ├── homepage_mobile.png
-    ├── aboutpage_desktop.png
-    ├── aboutpage_mobile.png
-    └── README.md
+Task2/
+├── about.html
+├── aboutpage_desktop.png
+├── aboutpage_mobile.png
+├── homepage_desktop.png
+├── homepage_mobile_0.png
+├── homepage_mobile_1.png
+├── index.html
+├── logo.png
+├── README.md
+├── script.js
+└── style.css
 ```
 
 ---
 
 ## 🔗 Navigation Pages
 
-### Home Page
+### 🏠 Home Page
 
-Contains the complete To-Do List application where users can manage their tasks.
+The Home page contains the complete To-Do List application where users can:
 
-### About Page
+* Add tasks
+* Edit tasks
+* Delete tasks
+* Search tasks
+* Mark tasks as completed
+* View task statistics
 
-Provides information about the project, its features, and technologies used.
+### ℹ️ About Page
+
+The About page provides information about the project, its features, and technologies used.
 
 ---
 
@@ -77,17 +84,17 @@ This project is fully responsive and adapts to different screen sizes using CSS 
 
 ### Desktop View
 
-* Full-width layout
 * Horizontal navigation menu
-* Spacious task management interface
-* Optimized desktop experience
+* Spacious layout
+* Optimized user experience
+* Task management interface with clear visibility
 
 ### Mobile View
 
-* Responsive layout
-* Stacked navigation menu
-* Mobile-friendly controls
+* Navigation links stack vertically
+* Responsive input fields and buttons
 * Optimized spacing and typography
+* Mobile-friendly task management
 
 Media Query Used:
 
@@ -103,9 +110,13 @@ Media Query Used:
 
 ![Home Page Desktop](homepage_desktop.png)
 
-### Home Page - Mobile
+### Home Page - Mobile (Part 1)
 
-![Home Page Mobile](homepage_mobile.png)
+![Home Page Mobile Part 1](homepage_mobile_0.png)
+
+### Home Page - Mobile (Part 2)
+
+![Home Page Mobile Part 2](homepage_mobile_1.png)
 
 ### About Page - Desktop
 
@@ -117,6 +128,18 @@ Media Query Used:
 
 ---
 
+## 💡 Key Concepts Used
+
+* DOM Manipulation
+* Event Handling
+* JavaScript Functions
+* Local Storage
+* Dynamic UI Updates
+* CSS Flexbox
+* Responsive Web Design
+
+---
+
 ## 🚀 How to Run the Project
 
 1. Download or clone the repository.
@@ -124,21 +147,9 @@ Media Query Used:
 3. Open `index.html`.
 4. Run using the Live Server extension.
 
-OR
+### OR
 
-Open `index.html` directly in any web browser.
-
----
-
-## 💡 Key Concepts Used
-
-* DOM Manipulation
-* Event Listeners
-* JavaScript Functions
-* Local Storage
-* Dynamic UI Updates
-* CSS Flexbox
-* Responsive Web Design
+Open `index.html` directly in any modern web browser.
 
 ---
 
@@ -152,4 +163,4 @@ Web Development Internship - Task 2
 
 ## 📌 Note
 
-This project was created as part of a Web Development Internship assignment. It demonstrates practical implementation of HTML5, CSS3, JavaScript DOM manipulation, event handling, local storage, and responsive web design principles through a fully functional To-Do List application.
+This project was developed as part of a Web Development Internship assignment. It demonstrates practical implementation of HTML5, CSS3, JavaScript DOM manipulation, event handling, local storage, and responsive web design principles through a fully functional To-Do List application.
